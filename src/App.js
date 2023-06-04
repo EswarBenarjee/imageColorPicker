@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+
+import NavbarComponent from "./components/Navbar";
+import BodyComponent from "./components/Body";
 
 function App() {
+  const [hex, setHex] = useState("#000000");
+  const [rgb, setRGB] = useState("rgb(0, 0, 0)");
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavbarComponent />
+
+      <BodyComponent hex={hex} setHex={setHex} rgb={rgb} setRGB={setRGB} />
     </div>
   );
 }
