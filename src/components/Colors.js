@@ -33,6 +33,7 @@ const Colors = ({ hex, setHex, rgb, setRgb }) => {
           <span className="roundedDiv div3 me-3"></span> Colors
         </Card.Title>
         <Card.Text>
+          <span>Click on image to open the dropper</span>
           <span>
             Hex Value:
             <span className="mx-3">{hex.code}</span>
