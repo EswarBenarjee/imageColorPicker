@@ -34,6 +34,7 @@ const Colors = ({ hex, setHex, rgb, setRgb }) => {
         </Card.Title>
         <Card.Text>
           <span>Click on image to open the dropper</span>
+          <br />
           <span>
             Hex Value:
             <span className="mx-3">{hex.code}</span>
