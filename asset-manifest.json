@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/imageColorPicker/static/css/main.cc60de21.css",
-    "main.js": "/imageColorPicker/static/js/main.9af4c99c.js",
+    "main.js": "/imageColorPicker/static/js/main.006dd89d.js",
     "index.html": "/imageColorPicker/index.html",
     "main.cc60de21.css.map": "/imageColorPicker/static/css/main.cc60de21.css.map",
-    "main.9af4c99c.js.map": "/imageColorPicker/static/js/main.9af4c99c.js.map"
+    "main.006dd89d.js.map": "/imageColorPicker/static/js/main.006dd89d.js.map"
   },
   "entrypoints": [
     "static/css/main.cc60de21.css",
-    "static/js/main.9af4c99c.js"
+    "static/js/main.006dd89d.js"
   ]
 }
