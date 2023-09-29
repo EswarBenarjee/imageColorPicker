@@ -28,7 +28,7 @@ const Image = ({ img, hex, setHex, rgb, setRgb }) => {
     >
       <img
         src={img === "eswar.jpg" ? img : URL.createObjectURL(img)}
-        className="w-100"
+        className="w-100 mb-5"
         style={{ maxHeight: "500px" }}
         alt=""
       />
