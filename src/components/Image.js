@@ -22,13 +22,18 @@ const Image = ({ img, hex, setHex, rgb, setRgb }) => {
   };
 
   return (
-    <div onClick={openEyeDropper}>
+    <div
+      onClick={openEyeDropper}
+      className="d-flex flex-column justify-content-center align-items-center"
+    >
       <img
         src={img === "eswar.jpg" ? img : URL.createObjectURL(img)}
         className="w-100"
         style={{ maxHeight: "500px" }}
         alt=""
       />
+
+      <button className="btn btn-primary">Start Eyedropper</button>
     </div>
   );
 };
